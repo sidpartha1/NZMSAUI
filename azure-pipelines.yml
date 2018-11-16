@@ -20,7 +20,9 @@ steps:
 - task: ArchiveFiles@2
     inputs:
       rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
- 
+   includeRootFolder: 
+      archiveType: 'zip' 
+      tarCompression: 'none' # Optional. Options: gz, bz2, xz, none
 
 
 - task: PublishBuildArtifacts@1
