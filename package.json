@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "applicationinsights": "^1.0.6",
+    "applicationinsights-js": "^1.0.20",
+    "file-loader": "^2.0.0",
     "react": "^16.6.0",
+    "react-appinsights": "^1.0.4",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.6.0",
     "react-responsive-modal": "^3.5.0",

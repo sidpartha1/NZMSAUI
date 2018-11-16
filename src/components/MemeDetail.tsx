@@ -1,6 +1,7 @@
 import * as React from "react";
 import Modal from 'react-responsive-modal';
 
+
 interface IProps {
     currentMeme: any
 }
